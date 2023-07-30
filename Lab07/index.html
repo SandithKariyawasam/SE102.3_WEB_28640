@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>JavaScript Functions</title>
+    </head>
+    
+    <body>
+        <script>
+            window.onload = function(){
+                getMarks();
+            }
+                        
+            function getMarks(){
+                var totl = 0;
+                for(var i=0; i<5; i++){
+                    var marks = parseInt(window.prompt("Enter your Marks: "));
+                    totl = totl + marks;
+                }
+                
+                var avg = totl/5;
+                document.write("Total is ",totl);
+                document.write("<br>");
+                document.write("Average is ",totl/5);
+                document.write("<br>");
+                
+                var button = document.createElement("button");
+                button.innerHTML = "Grade";
+                //onclick = after click
+                button.onclick = function(){
+                    if(average > 30){
+                        window.alert("Congratulations!");
+                    }
+                    else{
+                        window.alert("Sorry! Better luck next time.");
+                        
+                    }
+                };
+                document.body.appendChild(button);
+            }
+        </script>
+    </body>
+</html>
