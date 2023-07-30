@@ -1,0 +1,21 @@
+<html>
+    <head>
+      <title>JavaScript OnMouseOver</title>
+    </head>
+    <body>
+        <button onmouseover="bgColorChange('red')" onmouseout="changeColor('white')">Red</button>
+        <br><br>
+        <button onmouseover="bgColorChange('green')" onmouseout="changeColor('pink')">Green</button>
+        <br><br>
+        <button onmouseover="bgColorChange('blue')" onmouseout="changeColor('yellow')">Blue</button>
+        <br><br>
+    </body>
+
+    <script> 
+         //this is parameterized function   
+        function bgColorChange(color)  //function name is change color
+        {
+            document.bgColor= color;  //this line is assign parameter value to color variable
+        }
+    </script>
+</html>
