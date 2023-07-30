@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch is JS</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(window.prompt("Enter a number 1 - 7: "));
+        var day;
+        switch(num){    
+            //switch(): This statement is used to select a block of code to execute based on the value of a variable.
+            case 1: day = "Monday";
+            break;
+            case 2: day = "Tuesday";
+            break;
+            case 3: day = "Wednesday";
+            break;
+            case 4: day = "Thursday";
+            break;
+            case 5: day = "Friday";
+            break;
+            case 6: day = "Saturday";
+            break;
+            case 7: day = "Sunday";
+            break;
+            default: document.write("Enter a valid number (1 - 7)");          
+        }
+        document.write(day);
+    </script>
+</body>
+</html>
