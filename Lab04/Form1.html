@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="login.php">
+            <table>
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>last name</td>
+                    <td><input type="text" name="lname"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="number" name="tel-no"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="male">Male
+                        <input type="radio" name="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Favourite Music</td>
+                    <td>
+                        <input type="checkbox" name="pop">POP
+                        <input type="checkbox" name="rock">Rock
+                        <input type="checkbox" name="other">other
+                    </td>
+                </tr>
+                <tr>
+                    <td>additional data</td>
+                    <td><textarea name="details" cols="18" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="agree">
+                        I agree to the terms and conditions
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>
