@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <title>JavaScript OnMouseOut</title>
+    </head>
+    <body>
+        <button onmouseover="returnred()" onmouseout="returnwhite()">Red</button>
+        <br><br>
+        <button onmouseover="returngreen()" onmouseout="returnwhite()">Green</button>
+        <br><br>
+        <button onmouseover="returnblue()" onmouseout="returnwhite()">Blue</button>
+        <br><br>
+    </body>
+
+    <script>
+        function returnred()
+        {
+            document.bgColor="red";
+        }
+        function returngreen()
+        {
+            document.bgColor="green";
+        }
+        function returnblue()
+        {
+            document.bgColor="blue";
+        }
+        function returnwhite()
+        {
+            document.bgColor="white";
+        }
+    </script>
+</html>
