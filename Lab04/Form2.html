@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Car registration</title>
+    </head>
+    <body>
+        <fieldset>
+        <legend>Car Registration</legend>
+        <form action="log.php">
+        <table>
+            <tr>
+                <td>Owner Name</td>
+                <td colspan="2"><input type="text" name="name" id=""></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td colspan="2"><input type="email" name="email" id=""></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td colspan="2"><input type="number" name="tel-no" id=""></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td colspan="2">
+                    <select name="country" id="">
+                        <option value="Sri Lanka">Sri Lanka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Car Model</td>
+                <td colspan="2"><input type="text" name="car-model"></td>
+            </tr>
+            <tr>
+                <td>Manufacture Year</td>
+                <td colspan="2">
+                    <select name="year">
+                        <option value="null">Select Year</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Transmission</td>
+                <td colspan="2">
+                    <input type="radio" name="transmission" value="manual">Manual
+                    <input type="radio" name="transmission" value="auto">Auto
+                </td>
+            </tr>
+            <tr>
+                <td>Other</td>
+                <td colspan="2"><textarea name="other" id="" cols="30" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" name="agree">
+                I agree to the conditions and terms</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td colspan="2"><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+        </form>
+        </fieldset>
+    </body>
+</html>
